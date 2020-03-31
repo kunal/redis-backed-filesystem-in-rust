@@ -1,0 +1,13 @@
+[package]
+
+name = "hashfs"
+version = "0.0.1"
+authors = ["Kunal Bharati"]
+
+[dependencies]
+fuse = "0.3"
+libc = "*"
+time = "0.1.38"
+redis = "*"
+env_logger = "*"
+serde_json = "*"
